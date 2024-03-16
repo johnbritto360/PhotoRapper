@@ -1,6 +1,6 @@
 *PhotoRapper Portfolio:*
 
-This repository contains the PhotoRapper portfolio, showcasing the work of a photographer in nature, wilderness, citylights, and portraits. The portfolio is inspired by Lulu and Isabella Studio with some modifications and retains the originality of the design.
+This repository contains the PhotoRapper portfolio, showcasing the work of a photographer in nature, wilderness, citylights, and portraits. The portfolio is inspired by Lulu and Isabelle Studio with some modifications and retains the originality of the design.
 
 *Portfolio Sections:*
 
@@ -18,7 +18,7 @@ Images: 90% of the images are AI-generated to create unique visuals.
 
 Source Code: The HTML and CSS code is carefully crafted to maintain the original layout. Make sure to inspect before making changes.
 
-Reference: The design inspiration is taken from Pixpa's Lulu and Isabella Studio portfolio(Link: https://www.luluandisabelle.com/)
+Reference: The design inspiration is taken from Pixpa's Lulu and Isabelle Studio portfolio(Link: https://www.luluandisabelle.com/)
 
 *Getting Started:*
 
