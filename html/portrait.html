@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citylights</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+    <link rel="icon" href="../assets/logos/KS.svg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="../assets/logos/logoport.svg" alt="logo"></a>
+        </div>
+        <ul>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="nature.html">nature</a></li>
+            <li><a href="wild.html">wilderness</a></li>
+            <li><a href="city.html">citylights</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+    <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+    <div class="container">
+        <div class="image-row">
+            <img src="../assets/portraits/por1.jpg" alt="Car Guy">
+            <img src="../assets/portraits/por2.jpg" alt="Americano">
+            <img src="../assets/portraits/por3.jpg" alt="Concert Girl">
+        </div>
+        <div class="image-row">
+            <img src="../assets/portraits/por4.jpg" alt="Model Girl">
+            <img src="../assets/portraits/por5.jpg" alt="Hunter Man">
+            <img src="../assets/portraits/por7.png" alt="Teen Girl">
+        </div>
+        <div class="image-row">
+            <img src="../assets/portraits/por6.jpg" alt="70's Man">
+            <img src="../assets/portraits/por8.png" alt="Valley Girl">
+            <img src="../assets/portraits/por9.png" alt="Teen Boy">
+        </div>
+    </div>
+    <div class="footer">
+        <img src="logoport.svg" alt="logo">
+        <p>&copy; 2024 Kishan's Studio. All rights reserved.</p>
+        <p>Designed by <b><i>John</i></b></p>
+    </div>
+</body>
+<script>
+    const menu=document.querySelector('.menu');
+    const menulist=document.querySelector('nav ul');
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+</script>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="../assets/logos/logoport.svg" alt="logo"></a>
+        </div>
+        <ul>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="nature.html">nature</a></li>
+            <li><a href="wild.html">wilderness</a></li>
+            <li><a href="city.html">citylights</a></li>
+            <li><a href="portrait.html">portraits</a></li>
+        </ul>
+    </nav>
+    <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+    <div class="about-section">
+        <h2>about me</h2>
+        <p>welcome to my world of photography! I'm <b>Kishan</b>, a passionate photographer with over 3 years of experience
+            capturing moments that tell stories. My journey has taken me across Europe and into the depths of the
+            deadliest forests in south america and africa, where i've honed my skills and developed a deep appreciation
+            for the beauty of nature and culture.</p>
+        <p>one of the joys of my work is the ability to connect with people from diverse backgrounds. i speak english,
+            norwegian, spanish, portuguese, french, italian, and i'm even learning a bit of german. this linguistic
+            versatility allows me to communicate seamlessly and understand the nuances of different cultures, enriching
+            my photography with unique perspectives.</p>
+        <p>i take pride in capturing the essence of every moment, whether it's the vibrant streets of a bustling city or
+            the serene landscapes of remote wilderness. through my lens, i aim to evoke emotions and create lasting
+            memories that transcend time.</p>
+        <p>i hope you enjoy my works! if you have any question, or want to collaborate on some creative project, please don't hesitate to contact me.</p>
+        <p>have a nice day!.</p>
+    </div>
+    <div class="footer">
+        <img src="../assets/logos/logoport.svg" alt="logo">
+        <p>&copy; 2024 Kishan's Studio. All rights reserved.</p>
+        <p>Designed by <b><i>John</i></b></p>
+    </div>
+</body>
+<script>
+    const menu=document.querySelector('.menu');
+    const menulist=document.querySelector('nav ul');
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+</script>
+</html>

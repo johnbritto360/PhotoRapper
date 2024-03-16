@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoRapper-Kishan</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../assets/logos/KS.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../assets/logos/logoport.svg" alt="logo">  
+            </div>
+            <ul>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="https://www.behance.net/">behance</a></li>
+                <li><a href="https://in.linkedin.com/">linkedIn</a></li>
+                <li><a href="https://www.instagram.com">instagram</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </header>
+    <div class="image-cont">
+        <div class="img1">
+            <img class="col" src="../assets/covers/norway.jpeg" alt="Norway Valley">
+            <a href="nature.html"><button class="btn">nature</button></a>
+        </div>
+        <div class="img1">
+            <img class="col" src="../assets/covers/wild.jpeg" alt="Pride of Lions">
+            <a href="wild.html"><button class="btn">wilderness</button></a>
+        </div>
+        <div class="img1">
+            <img class="col" src="../assets/covers/timessq.jpg" alt="Times Square">
+            <a href="city.html"><button class="btn">citylights</button></a>
+        </div>
+        <div class="img1">
+            <img class="col" src="../assets/covers/portrait.jpeg" alt="Man in Savannah">
+            <a href="portrait.html"><button class="btn">portraits</button></a>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="../assets/logos/logoport.svg" alt="logo">
+        <p>&copy; 2024 Kishan's Studio. All rights reserved.</p>
+        <p>Designed by <b><i>John</i></b></p>
+    </div>
+</body>
+<script>
+    const menu=document.querySelector('.menu');
+    const menulist=document.querySelector('nav ul');
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+</script>
+</html>

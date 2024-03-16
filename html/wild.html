@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilderness</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+    <link rel="icon" href="../assets/logos/KS.svg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="../assets/logos/logoport.svg" alt="logo"></a>
+        </div>
+        <ul>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="nature.html">nature</a></li>
+            <li><a href="city.html">citylights</a></li>
+            <li><a href="portrait.html">portraits</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+    <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+    <div class="container">
+        <div class="image-row">
+            <img src="../assets/wilderness/hippo1.jpeg" alt="Hippopotamus">
+            <img src="../assets/wilderness/lion1.jpeg" alt="Lion 1">
+            <img src="../assets/wilderness/macaw1.jpeg" alt="Macaw">
+        </div>
+        <div class="image-row">
+            <img src="../assets/wilderness/lion2.jpeg" alt="Lion 2">
+            <img src="../assets/wilderness/tiger1.jpeg" alt="Bengal Tiger">
+            <img src="../assets/wilderness/cheetah.jpg" alt="Cheetah">
+        </div>
+        <div class="image-row">
+            <img src="../assets/wilderness/rhino.jpg" alt="Rhinoceros">
+            <img src="../assets/wilderness/croc.jpg" alt="Crocodile">
+            <img src="../assets/wilderness/tiger2.jpeg" alt="Siberian Tiger">
+        </div>
+    </div>
+    <div class="footer">
+        <img src="../assets/logos/logoport.svg" alt="logo">
+        <p>&copy; 2024 Kishan's Studio. All rights reserved.</p>
+        <p>Designed by <b><i>John</i></b></p>
+    </div>
+</body>
+<script>
+    const menu=document.querySelector('.menu');
+    const menulist=document.querySelector('nav ul');
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+</script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+    <link rel="icon" href="../assets/logos/KS.svg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="../assets/logos/logoport.svg" alt="logo"></a>
+        </div>
+        <ul>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="wild.html">wilderness</a></li>
+            <li><a href="city.html">citylights</a></li>
+            <li><a href="portrait.html">portraits</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+    <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+    <div class="container">
+        <div class="image-row">
+            <img src="../assets/nature/wintr.jpeg" alt="Winter 1">
+            <img src="../assets/nature/wintr2.jpeg" alt="Winter 2">
+            <img src="../assets/nature/snow1.jpeg" alt="Snow Mountains 1">
+        </div>
+        <div class="image-row">
+            <img src="../assets/nature/snow2.jpeg" alt="Snow Mountains 2">
+            <img src="../assets/nature/snow3.jpeg" alt="Snow Mountains 3">
+            <img src="../assets/nature/shore1.jpeg" alt="Sea Shore 1">
+        </div>
+        <div class="image-row">
+            <img src="../assets/nature/shore2.jpeg" alt="Sea Shore 2">
+            <img src="../assets/nature/cliff1.jpeg" alt="Cliff 2">
+            <img src="../assets/nature/cliff2.jpeg" alt="Cliff 3">
+        </div>
+        <div class="image-row">
+            <img src="../assets/nature/rainfr3.jpeg" alt="Rain Forest 1">
+            <img src="../assets/nature/rainfr2.jpeg" alt="Rain Forest 2">
+            <img src="../assets/nature/cliff3.jpeg" alt="Cliff 3">
+        </div>
+    </div>
+    <div class="footer">
+        <img src="../assets/logos/logoport.svg" alt="logo">
+        <p>&copy; 2024 Kishan's Studio. All rights reserved.</p>
+        <p>Designed by <b><i>John</i></b></p>
+    </div>
+</body>
+<script>
+    const menu=document.querySelector('.menu');
+    const menulist=document.querySelector('nav ul');
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+</script>
+</html>
